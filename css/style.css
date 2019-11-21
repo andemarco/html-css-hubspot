@@ -3,3 +3,35 @@
   margin: 0;
   padding: 0;
 }
+
+.nav-bar {
+  height: 160px;
+  background-color: red;
+}
+
+.nav-bar .up {
+  height: 80px;
+  background-color: grey;
+}
+
+.jambotron{
+  height: 600px;
+  background-color: green;
+}
+
+.main-first {
+  height: 1200px;
+  background-color: pink;
+}
+.main-second{
+  height: 600px;
+  background-color: blue;
+}
+.main-third{
+  height: 600px;
+  background-color: brown;
+}
+.footer {
+  height: 500px;
+  background-color: lightblue;
+}
