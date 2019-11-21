@@ -2,17 +2,90 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
+.button {
+  color: white;
+  background-color: #FF7A59;
+  border-radius: 5px;
+  line-height: 35px;
+  padding: 0 10px;
+}
+
+.button:hover {
+  background-color: #FF8F73
+}
+/* HEADER */
+/* NAV BAR */
 
 .nav-bar {
-  height: 160px;
-  background-color: red;
+  font-size: 14px;
 }
 
-.nav-bar .up {
-  height: 80px;
-  background-color: grey;
+.header-page .nav-bar:first-child {
+  background-color: #F5F8FA;
+  border-bottom: solid 1px lightblue;
 }
+.nav-bar ul {
+  list-style: none;
+}
+.nav-bar li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+}
+
+  /* NAV BAR UP */
+.nav-bar .up {
+  width: 70%;
+  margin: 0 auto;
+  height: 80px;
+  line-height: 80px;
+}
+
+/* NAV BAR LEFT */
+.nav-bar .left {
+  float: left;
+}
+
+.nav-bar .left li {
+  color: #33475B;
+}
+
+/* NAV BAR RIGHT */
+.nav-bar .right {
+  float: right;
+}
+.nav-bar .up .right .log {
+  color: #FF7A59;
+  border: 1px solid #FF7A59;
+  border-radius: 5px;
+  line-height: 35px;
+  padding: 0 10px;
+  background-color: white;
+}
+.nav-bar .up .right .log:hover {
+  background-color: #F5F8FA;
+}
+.nav-bar .up .right i {
+  color: lightblue;
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+  /* NAV BAR DOWN */
+  .nav-bar .down {
+    width: 70%;
+    margin: 0 auto;
+    height: 80px;
+    line-height: 80px;
+  }
+
+
+
 
 .jambotron{
   height: 600px;
