@@ -10,6 +10,7 @@
   border-radius: 5px;
   line-height: 35px;
   padding: 0 10px;
+  text-decoration: none;
 }
 .button:hover {
   background-color: #FF8F73
@@ -18,7 +19,7 @@
 /* NAV BAR */
 .header-page .nav-bar:first-child {
   background-color: #F5F8FA;
-  border-bottom: solid 1px lightblue;
+  border-bottom: solid 1px #33475B;
 }
 .nav-bar ul {
   list-style: none;
@@ -90,12 +91,59 @@
   margin-left: 2px;
 }
 
-
-.jambotron{
-  height: 600px;
-  background-color: green;
+/* HEADER MAIN */
+.header-main {
+  height: 640px;
+  background-image: url(../img/jumbotron.png);
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
+/* JAMBOTRON */
+.jambo{
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: #33475B;
+}
+.jambo .content {
+  float: left;
+  width: 40%;
+  margin-top: 70px;
+}
+
+.jambo .content h1 {
+  font-size: 52px;
+}
+
+.jambo .content h6 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 22px;
+}
+
+.jambo .content .button {
+  font-size: 14px;
+  display: inline-block;
+  padding: 14px 42px;
+  margin: 35px 0;
+}
+
+.jambo .content p {
+  font-size: 12px;
+}
+
+/* INTERSPACE */
+.interspace {
+  height: 80px;
+  background-color: #AFEBE4;
+  border-top: solid 3px #33475B;
+  border-bottom: solid 3px #33475B;
+}
+
+/* MAIN */
 .main-first {
   height: 1200px;
   background-color: pink;
