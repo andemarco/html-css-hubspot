@@ -18,6 +18,11 @@
 ul {
   list-style: none;
 }
+.box {
+  background-color: white;
+  box-shadow: 1px 3px 15px -6px rgba(0,0,0,0.34);
+  border-radius: 5px;
+}
 /* HEADER */
 /* NAV BAR */
 .header-page .nav-bar:first-child {
@@ -156,7 +161,7 @@ ul {
   display: table;
   clear: both;
 }
-
+/* MAIN PRIMO BLOCCO POWERFUL */
 .powerful {
   text-align: center;
   padding-top: 35px;
@@ -168,35 +173,81 @@ ul {
 .powerful p {
   margin-top: 20px;
   line-height: 25px;
-  font-size: 14px;
+  font-size: 16px;
 }
+.powerful h2 {
+  font-size: 28px;
+}
+/* MAIN PRIMO BLOCCO HUBSPOT */
 .hubspot {
   width: 60%;
   margin: 0 auto;
-  border: solid 2px black;
-  padding: 40px;
+  padding: 60px 110px;
 }
 .hubspot .left {
   float: left;
   width: 20%;
   line-height: 40px;
-  margin-right: 90px;
+  margin-right: 70px;
 }
 .hubspot .left img {
-  height: 140px;
+  height: 120px;
   line-height: 160px;
 }
 .hubspot .button {
-  padding: 14px 43px;
+  padding: 14px 33px;
 }
 .hubspot .right {
   color: #33475B;
 }
 .hubspot .right h3{
   line-height: 50px;
+  font-size: 22px;
 }
-
-
+.hubspot .right p {
+  line-height: 22px;
+  font-size: 16px;
+}
+.hubspot .right h4 {
+  display: inline;
+  line-height: 80px;
+  font-size: 20px;
+}
+.hubspot .right hr {
+  display: inline-block;
+  margin-left: 70px;
+  border: solid 1px #33475B;
+  width: 330px;
+  vertical-align: middle
+}
+.hubspot .right li {
+  display: inline;
+  margin-right: 30px;
+  list-style: url();
+}
+.hubspot .right i {
+  color: #FF7A59;
+  margin-right: 20px;
+}
+/* MAIN PRIMO BLOCCO HUB */
+.hub {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-top: 50px
+}
+.box .lefthub {
+  width: 28%;
+  margin-right: 8%
+}
+.box .centerhub {
+  width: 28%;
+  margin-right: 8%
+}
+.box .righthub {
+  width: 28%;
+  margin-right: 8%
+}
 
 
 .main-second{
