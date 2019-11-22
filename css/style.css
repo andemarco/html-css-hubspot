@@ -104,9 +104,9 @@ ul {
 
 /* HEADER MAIN */
 .header-main {
-  height: 640px;
+  height: 600px;
   background-image: url(../img/jumbotron.png);
-  background-position: center right;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -302,9 +302,57 @@ ul {
 
 /* MAIN SECONDO BLOCCO */
 .main-second{
-  height: 900px;
+  height: 820px;
   background-image: linear-gradient(to right, #00A9B7, #00BCA6);
   color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.main-second .grow {
+  padding-top: 110px;
+  margin: 0 auto;
+  width: 70%;
+}
+.main-second .grow h2 {
+  font-size: 35px;
+  line-height: 40px;
+  padding-bottom: 35px;
+}
+.main-second .grow p {
+  line-height: 25px;
+  font-size: 16px;
+}
+.table::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.table {
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 60px;
+  padding: 50px;
+}
+.table .inside {
+  width: 25%;
+  float: left;
+  line-height: 38px;
+  padding: 35px;
+}
+.table .inside img {
+  height: 33px;
+}
+.table .inside h2 {
+  font-size: 38px;
+}
+.table .inside p {
+  font-size: 14px;
+}
+.boarder-right {
+  border-right: solid 1px white;
+}
+.boarder-up {
+  border-top: solid 1px white;
 }
 .main-third{
   height: 600px;
