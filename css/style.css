@@ -354,11 +354,45 @@ ul {
 .boarder-up {
   border-top: solid 1px white;
 }
-.main-third{
-  height: 600px;
-  background-color: brown;
-}
 .footer {
   height: 500px;
   background-color: lightblue;
+}
+
+/* MAIN TERZO BLOCCO */
+.main-third{
+  height: 600px;
+}
+.main-third-up {
+  font-family: 'Roboto', sans-serif;
+  width: 55%;
+  margin: 0 auto;
+  color: #33475B;
+  margin-top: 40px;
+}
+.main-third-up-left{
+  float: left;
+  text-align: left;
+  width: 20%;
+}
+.main-third-up-left h2{
+  line-height: 80px;
+  font-size: 38px;
+}
+.main-third-up-left p {
+  line-height: 28px;
+}
+.main-third-up-right{
+  width: 80%;
+  float: right;
+  text-align: right;
+}
+.main-third-up-right img {
+  width: 65%;
+}
+.logobox {
+  width: 21%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 20px;
 }
