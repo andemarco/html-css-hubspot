@@ -361,10 +361,6 @@ ul {
 .boarder-up {
   border-top: solid 1px white;
 }
-.footer {
-  height: 500px;
-  background-color: lightblue;
-}
 
 /* MAIN TERZO BLOCCO */
 /* MAIN TERZO BLOCCO SOPRA */
@@ -465,6 +461,9 @@ clear: both;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
 }
+.footer a:hover {
+  color: #00A9B9;
+}
 .footer-up::after {
   content: "";
   display: table;
@@ -543,4 +542,36 @@ clear: both;
   height: 0.5px;
   background-color: #CBD6E2;
   margin-top: 15px;
+}
+
+.footer-logo {
+  float: left;
+  padding: 40px 0px;
+  width: 50%;
+  margin: 0
+}
+.footer-logo p {
+  line-height: 30px;
+  font-size: 9px;
+  color: #CBD6E2;
+}
+
+.footer-stuff {
+  text-align: right;
+  float: right;
+  width: 30%;
+  padding: 40px 0px;
+}
+
+.footer-stuff p {
+  display: inline;
+  text-align: right;
+  line-height: 30px;
+  font-size: 14px;
+  padding-right: 30px;
+}
+
+.footer-stuff a {
+  text-decoration: none;
+  color: #CBD6E2;
 }
