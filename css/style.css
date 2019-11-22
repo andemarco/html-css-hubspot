@@ -152,11 +152,15 @@ ul {
 /* MAIN */
 /* MAIN PRIMO BLOCCO */
 .main-first {
-  height: 1200px;
   background-color: #F5F8FA;
   font-family: 'Roboto', sans-serif;
 }
 .hubspot:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.hub:after {
   content: "";
   display: table;
   clear: both;
@@ -206,7 +210,7 @@ ul {
 }
 .hubspot .right p {
   line-height: 22px;
-  font-size: 16px;
+  font-size: 14px;
 }
 .hubspot .right h4 {
   display: inline;
@@ -225,7 +229,8 @@ ul {
   margin-right: 30px;
   list-style: url();
 }
-.hubspot .right i {
+.hubspot .right i,
+.boxhub i {
   color: #FF7A59;
   margin-right: 20px;
 }
@@ -233,21 +238,68 @@ ul {
 .hub {
   width: 60%;
   margin: 0 auto;
-  border: 1px solid black;
-  margin-top: 50px
+  margin-top: 50px;
+  text-align: center;
+  color: #33475B;
+  margin-bottom:50px;
 }
-.box .lefthub {
+
+.boxhub {
+  padding: 16px;
+  min-height: 470px;
+}
+.boxhub img {
+  height: 120px;
+}
+
+.lefthub {
+  float: left;
   width: 28%;
   margin-right: 8%
 }
-.box .centerhub {
+.centerhub {
+  float: left;
   width: 28%;
   margin-right: 8%
 }
-.box .righthub {
+.righthub {
+  float: right;
   width: 28%;
-  margin-right: 8%
 }
+.boxhub h3 {
+  line-height: 60px;
+  font-size: 22px
+}
+.boxhub p {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 22px;
+  min-height: 90px;
+}
+
+.boxhub hr {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.boxhub h4 {
+  line-height: 65px;
+  font-size: 18px;
+}
+.boxhub ul {
+  text-align: left;
+  padding-left: 25px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.boxhub a{
+  display: inline-block;
+  line-height: 40px;;
+  margin-top: 30px;
+}
+
+
 
 
 .main-second{
