@@ -33,6 +33,12 @@ ul {
   display: inline-block;
   margin-right: 12px;
 }
+.nav-bar hr {
+  display: inline;
+  color: lightgrey;
+  border: solid 1px;
+  margin-right: 12px;
+}
 .nav-bar a {
   text-decoration: none;
 }
@@ -45,7 +51,6 @@ ul {
   font-size: 14px;
   position: relative;
 }
-
   /* NAV BAR UP */
 /* NAV BAR UP LEFT */
 .nav-bar .up .left {
@@ -220,7 +225,7 @@ ul {
 .hubspot .right hr {
   display: inline-block;
   margin-left: 70px;
-  border: solid 1px #33475B;
+  border: solid 1px lightgrey;
   width: 330px;
   vertical-align: middle
 }
@@ -239,11 +244,10 @@ ul {
   width: 60%;
   margin: 0 auto;
   margin-top: 50px;
+  padding-bottom: 150px;
   text-align: center;
   color: #33475B;
-  margin-bottom:50px;
 }
-
 .boxhub {
   padding: 16px;
   min-height: 470px;
@@ -251,7 +255,6 @@ ul {
 .boxhub img {
   height: 120px;
 }
-
 .lefthub {
   float: left;
   width: 28%;
@@ -276,13 +279,11 @@ ul {
   line-height: 22px;
   min-height: 90px;
 }
-
 .boxhub hr {
   width: 70%;
   margin: 0 auto;
   margin-top: 20px;
 }
-
 .boxhub h4 {
   line-height: 65px;
   font-size: 18px;
@@ -299,12 +300,11 @@ ul {
   margin-top: 30px;
 }
 
-
-
-
+/* MAIN SECONDO BLOCCO */
 .main-second{
-  height: 600px;
-  background-color: blue;
+  height: 900px;
+  background-image: linear-gradient(to right, #00A9B7, #00BCA6);
+  color: white;
 }
 .main-third{
   height: 600px;
