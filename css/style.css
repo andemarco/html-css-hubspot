@@ -15,14 +15,14 @@
 .button:hover {
   background-color: #FF8F73
 }
+ul {
+  list-style: none;
+}
 /* HEADER */
 /* NAV BAR */
 .header-page .nav-bar:first-child {
   background-color: #F5F8FA;
   border-bottom: solid 1px #33475B;
-}
-.nav-bar ul {
-  list-style: none;
 }
 .nav-bar li {
   display: inline-block;
@@ -33,7 +33,7 @@
 }
 .nav-bar .down,
 .nav-bar .up {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   height: 80px;
   line-height: 80px;
@@ -48,6 +48,7 @@
 }
 .nav-bar .left li {
   color: #33475B;
+  line-height: 20px;
 }
 
 /* NAV BAR UP RIGHT */
@@ -102,7 +103,7 @@
 
 /* JAMBOTRON */
 .jambo{
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   color: #33475B;
@@ -144,10 +145,60 @@
 }
 
 /* MAIN */
+/* MAIN PRIMO BLOCCO */
 .main-first {
   height: 1200px;
-  background-color: pink;
+  background-color: #F5F8FA;
+  font-family: 'Roboto', sans-serif;
 }
+.hubspot:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.powerful {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 45px;
+  width: 45%;
+  margin: 0 auto;
+  color: #33475B;
+}
+.powerful p {
+  margin-top: 20px;
+  line-height: 25px;
+  font-size: 14px;
+}
+.hubspot {
+  width: 60%;
+  margin: 0 auto;
+  border: solid 2px black;
+  padding: 40px;
+}
+.hubspot .left {
+  float: left;
+  width: 20%;
+  line-height: 40px;
+  margin-right: 90px;
+}
+.hubspot .left img {
+  height: 140px;
+  line-height: 160px;
+}
+.hubspot .button {
+  padding: 14px 43px;
+}
+.hubspot .right {
+  color: #33475B;
+}
+.hubspot .right h3{
+  line-height: 50px;
+}
+
+
+
+
 .main-second{
   height: 600px;
   background-color: blue;
